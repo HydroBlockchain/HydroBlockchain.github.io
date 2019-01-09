@@ -1,9 +1,9 @@
 *  {	margin: 0;	padding: 0; }
 
-@font-face {font-family: 'Muli';src: url('../fonts/Muli-Bold.woff2') format('woff2'),url('../fonts/Muli-Bold.woff') format('woff');}
-@font-face {font-family: 'Muli';src: url('../fonts/Muli-Regular.woff2') format('woff2'),url('../fonts/Muli-Regular.woff') format('woff');}
-@font-face {font-family: 'Avenir Next LT Pro';src: url('../fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');}
-@font-face {font-family: 'Avenir Next LT Pro';src: url('../fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');}
+@font-face {font-family: 'Avenir Next LT Pro';src: url('fonts/Muli-Bold.woff2') format('woff2'),url('fonts/Muli-Bold.woff') format('woff');}
+@font-face {font-family: 'Avenir Next LT Pro';src: url('fonts/Muli-Regular.woff2') format('woff2'),url('fonts/Muli-Regular.woff') format('woff');}
+@font-face {font-family: 'Muli';src: url('fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),url('fonts/AvenirNextLTPro-Regular.woff') format('woff');}
+@font-face {font-family: 'Muli';src: url('fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),url('fonts/AvenirNextLTPro-Bold.woff') format('woff');}
 
 
 
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {line-height:130%;}
 h1 {font-size: 53px;font-weight: 800;font-family: 'Muli';}
 h2 {font-size:30px;}	
 h3 {font-size:1.8em;font-family: 'Muli';font-weight: 800;}
-h4 {font-size:21px;color:#636363;text-transform:uppercase;}
+h4 {font-size:21px;color:#636363;text-transform:uppercase;font-family: Muli;}
 h5 {font-size:1.1em;}
 .center {text-align:center;}
 .smaller {width:100%;margin:0 auto;}
