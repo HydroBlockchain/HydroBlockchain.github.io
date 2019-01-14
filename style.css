@@ -314,7 +314,7 @@ background: linear-gradient(to bottom, #2475d2 0%,#2652aa 100%); /* W3C, IE10+, 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', endColorstr='#2652aa',GradientType=0 ); /* IE6-9 */color:#fff;}
 #row-6-backgrounds {	background: url(images/row6left.png) no-repeat top left, url(images/row6right.png) right bottom no-repeat;}
 
-#footer {background:#333;padding-bottom:30px;}
+#footer {background:#333;}
 	#footer {font-weight:200;text-transform:uppercase;font-size:12px;letter-spacing:1px;}
 	
 	#footer #menu  ul li {
@@ -335,7 +335,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 
 
 
+.white {
+	color: #fff;
+}
 
+.grey_bg {
+	background: #333;
+}
+
+.get_involved {
+	color: #fff;
+	padding: 15px 25px 15px 25px;
+	background-color: #0871f5;
+	border-radius: 10px;
+}
 
 
 
