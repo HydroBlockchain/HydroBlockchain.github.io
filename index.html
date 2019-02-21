@@ -14,8 +14,13 @@
 </head>
 
 <script>
-function show_mobile_menu() {document.getElementById("mobile-class").className = "banner-wrapper noanimation";document.getElementById("menu-mobile").className = "menu-align active";}
-function hide_mobile_menu() {document.getElementById("menu-mobile").className = "menu-align notactive";document.getElementById("mobile-class").className = "banner-wrapper";}
+	var host = "projecthydro.org"
+	if (window.location.host == host && window.location.protocol != "https:") {
+		window.location.protocol = "https:"
+	}
+
+	function show_mobile_menu() {document.getElementById("mobile-class").className = "banner-wrapper noanimation";document.getElementById("menu-mobile").className = "menu-align active";}
+	function hide_mobile_menu() {document.getElementById("menu-mobile").className = "menu-align notactive";document.getElementById("mobile-class").className = "banner-wrapper";}
 </script>
 
 <body onload="shuffleCards();">
