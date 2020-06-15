@@ -28,9 +28,11 @@ a:focus {-moz-outline-style: none;}
 h1, h2, h3, h4, h5 {line-height:130%;}
 h1 {font-size: 53px;font-weight: 800;font-family: 'Muli';}
 h2 {font-size:30px;}
-h3 {font-size:1.8em;font-family: 'Muli';font-weight: 800;}
+h3 {font-size:1.8em;font-family: 'Muli';font-weight: 800;color:#636363;}
 h4 {font-size:21px;color:#636363;text-transform:uppercase;font-family: Muli;}
 h5 {font-size:1.1em;}
+h6 {font-size:0.9em;color:#636363;}
+h7 {font-size: 0.7em;color:#636363;}
 .center {text-align:center;}
 .smaller {width:100%;margin:0 auto;}
 .bottom-padding {margin-bottom:70px;}
