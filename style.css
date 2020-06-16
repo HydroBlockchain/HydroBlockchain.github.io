@@ -20,7 +20,7 @@ line-height:193%;}
 /* ------- globals ------- */
 
 h1, h2 {font-family: 'Muli';}
-img {max-width:100%;}
+img {max-width:100%; border-radius: 5px;}
 a  {	text-decoration: none;cursor:pointer;}
 a:hover  { text-decoration:underline; }
 a:active { outline: none;}
