@@ -20,7 +20,7 @@ line-height:193%;}
 /* ------- globals ------- */
 
 h1, h2 {font-family: 'Muli';}
-img {max-width:100%; border-radius: 5px;}
+img {max-width:100%;}
 a  {	text-decoration: none;cursor:pointer;}
 a:hover  { text-decoration:underline; }
 a:active { outline: none;}
@@ -28,11 +28,9 @@ a:focus {-moz-outline-style: none;}
 h1, h2, h3, h4, h5 {line-height:130%;}
 h1 {font-size: 53px;font-weight: 800;font-family: 'Muli';}
 h2 {font-size:30px;}
-h3 {font-size:1.8em;font-family: 'Muli';font-weight: 800;color:#636363;}
+h3 {font-size:1.8em;font-family: 'Muli';font-weight: 800;}
 h4 {font-size:21px;color:#636363;text-transform:uppercase;font-family: Muli;}
 h5 {font-size:1.1em;}
-h6 {font-size:0.9em;color:#636363;}
-h7 {font-size: 0.7em;color:#636363;}
 .center {text-align:center;}
 .smaller {width:100%;margin:0 auto;}
 .bottom-padding {margin-bottom:70px;}
@@ -53,7 +51,7 @@ h7 {font-size: 0.7em;color:#636363;}
 .column-1 {float:left;width:50%;}
 .column-2  {float:right;width:50%;text-align:right;}
 .bottom-padding-icons {  margin-bottom: 25px;}
-.button:hover {background:rgb(23, 36, 74);text-decoration:none;color:rgb(145, 213, 255);
+.button:hover {background:#000;text-decoration:none;color:#fff;
 	-webkit-box-shadow:0 0 14px 4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.2);}
