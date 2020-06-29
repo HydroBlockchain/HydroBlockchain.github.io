@@ -462,12 +462,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 
 
 @media screen and (max-width: 686px){
-
 	.box-3 .box {width:100%;float:none;display:block;}
 	.icon-circle, .icon-line {float: none;}
 	.icon-line-inner {border-top: none;height: 35px;}
-
-
+	#row-6 .center{display: flex;justify-content: center;}
 }
 
 
