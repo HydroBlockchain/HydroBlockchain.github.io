@@ -1,20 +1,22 @@
 <!DOCTYPE HTML>
 <html xml:lang="en-GB" lang="en-GB">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="QUEWXblJgvi_M5ZvPG4WNPr_xY3aMQxqPV4U1iBmxHk" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
 
-<title>Project Hydro</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="profile.css" rel="stylesheet" type="text/css" />
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="QUEWXblJgvi_M5ZvPG4WNPr_xY3aMQxqPV4U1iBmxHk" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+	<title>Project Hydro</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="profile.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <script>
@@ -23,42 +25,52 @@
 		window.location.protocol = "https:"
 	}
 
-	function show_mobile_menu() {document.getElementById("mobile-class").className = "banner-wrapper noanimation";document.getElementById("menu-mobile").className = "menu-align active";}
-	function hide_mobile_menu() {document.getElementById("menu-mobile").className = "menu-align notactive";document.getElementById("mobile-class").className = "banner-wrapper";}
-	
-	
+	function show_mobile_menu() {
+		document.getElementById("mobile-class").className = "banner-wrapper noanimation";
+		document.getElementById("menu-mobile").className = "menu-align active";
+	}
+
+	function hide_mobile_menu() {
+		document.getElementById("menu-mobile").className = "menu-align notactive";
+		document.getElementById("mobile-class").className = "banner-wrapper";
+	}
 </script>
 
 <body onload="shuffleCards();">
 
 
 	<div class="container">
-	  <div class="banner-wrapper" id="mobile-class">
-		<div class="banner">
-			<div class="menu-wrap">
-				<div class="logo">
-					<img alt="logo" src="images/logo.png" onclick="window.document.location.href='https://www.projecthydro.org'" />
-				</div>
-
-				<i class="showmobile fas fa-bars" onclick="show_mobile_menu();"></i>
-				<div class="menu-align" id="menu-mobile">
-					<i class="close-mobile fas fa-times-circle" onclick="hide_mobile_menu();"></i>
-					<a href="mailto:da@projecthydro.org" target="_blank" class="topmenu button">Contact Us</a>
-					<div id="menu">
-						<ul>
-							<li><a href="#row-1">About</a></li>
-							<li><a href="#row-4">Roadmap</a></li>
-							<li><a href="https://hydrostore.io/" target="_blank">dApps</a></li>
-							<li><a href="#row-6" >DA Team</a></li>
-						</ul>
+		<div class="banner-wrapper" id="mobile-class">
+			<div class="banner">
+				<div class="menu-wrap">
+					<div class="logo">
+						<img alt="logo" src="images/logo.png"
+							onclick="window.document.location.href='https://www.projecthydro.org'" />
 					</div>
-					<div class="clr"></div>
+
+					<i class="showmobile fas fa-bars" onclick="show_mobile_menu();"></i>
+					<div class="menu-align" id="menu-mobile">
+						<i class="close-mobile fas fa-times-circle" onclick="hide_mobile_menu();"></i>
+						<a href="mailto:da@projecthydro.org" target="_blank" class="topmenu button">Contact Us</a>
+						<div id="menu">
+							<ul>
+								<li><a href="#row-1">About</a></li>
+								<li><a href="#row-4">Roadmap</a></li>
+								<li><a href="https://hydrostore.io/" target="_blank">dApps</a></li>
+								<li><a href="#row-6">DA Team</a></li>
+							</ul>
+						</div>
+						<div class="clr"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	  </div>
-	 </div>
-	<div id="menu-logo"><div class="inner-wrappers"><div class="logo-back"></div></div></div>
+	</div>
+	<div id="menu-logo">
+		<div class="inner-wrappers">
+			<div class="logo-back"></div>
+		</div>
+	</div>
 
 	<!-- Intro -->
 
@@ -66,43 +78,50 @@
 		<div id="back-logo">
 			<div class="inner-wrapper padding">
 
-			<div id="intro">
-				<h1>Security & Identity <br> on the Blockchain</h1>
-				<br/>
-				<h2>Hydro is a decentralized ecosystem using cutting-edge cryptography to secure user accounts, identities, and transactions.</h2>
+				<div id="intro">
+					<h1>Security & Identity <br> on the Blockchain</h1>
+					<br />
+					<h2>Hydro is a decentralized ecosystem using cutting-edge cryptography to secure user accounts,
+						identities, and transactions.</h2>
 
-				<br/><br/>
+					<br /><br />
 
-				<div id="icon-top-wrapper">
-					<div class="icon-circle">
-					<i class="fas fa-fingerprint"></i>
-					<div class="text-accounts">Identities</div>
+					<div id="icon-top-wrapper">
+						<div class="icon-circle">
+							<i class="fas fa-fingerprint"></i>
+							<div class="text-accounts">Identities</div>
+						</div>
+
+						<div class="icon-line">
+							<div class="icon-line-inner"></div>
+						</div>
+
+						<div class="icon-circle">
+							<i class="far fam fa-user"></i>
+							<div class="text-ident">Accounts</div>
+						</div>
+
+						<div class="icon-line">
+							<div class="icon-line-inner"></div>
+						</div>
+
+						<div class="icon-circle">
+							<i class="far fa-file-alt"></i>
+							<div class="text-doc">Documents</div>
+						</div>
+
+						<div class="icon-line">
+							<div class="icon-line-inner"></div>
+						</div>
+
+						<div class="icon-circle">
+							<i class="far fan fa-credit-card"></i>
+							<div class="text-trans">Transactions</div>
+						</div>
+
+						<div class="clr"></div>
 					</div>
-
-					<div class="icon-line"><div class="icon-line-inner"></div></div>
-
-					<div class="icon-circle">
-					<i class="far fam fa-user"></i>
-					<div class="text-ident">Accounts</div>
-					</div>
-
-					<div class="icon-line"><div class="icon-line-inner"></div></div>
-
-					<div class="icon-circle">
-					<i class="far fa-file-alt"></i>
-					<div class="text-doc">Documents</div>
-					</div>
-
-					<div class="icon-line"><div class="icon-line-inner"></div></div>
-
-					<div class="icon-circle">
-					<i class="far fan fa-credit-card"></i>
-					<div class="text-trans">Transactions</div>
-					</div>
-
-					<div class="clr"></div>
 				</div>
-			</div>
 			</div>
 		</div>
 		<div id="middle-curve">&nbsp;</div>
@@ -113,264 +132,327 @@
 	<section id="row-1">
 		<div id="row-1-backgrounds">
 			<div class="inner-wrapper no-padding">
-					<h3 class="bottom-padding" style="color: white;">Hydro Ecosystem</h3>
-					<div id="hydro-ecosystem">
-						<img alt="hydro ecosystem" src="images/roadmap-vsm.png" style="width:100%;padding-bottom: 2rem;" />
-					</div>
-					
+				<h3 class="bottom-padding" style="color: white;">Hydro Ecosystem</h3>
+				<div id="hydro-ecosystem">
+					<img alt="hydro ecosystem" src="images/roadmap-vsm.png" style="width:100%;padding-bottom: 2rem;" />
+				</div>
+
 			</div>
 		</div>
 	</section>
 
 	<!-- DA Team -->
 
-	<section id="row-6">		
+	<section id="row-6">
 		<div class="inner-wrapper padding">
 			<h3 class="center bottom-padding" style="color: white;">dAmbassadors</h3>
 			<div class="center">
 				<div class="box-3">
 					<div class="box">
-						<div class="box-padding">			
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="saurav_kumar" src="images/da-team/saurav_kumar.png" style="padding-bottom: 15px;"/>
+									<img alt="saurav_kumar" src="images/da-team/saurav_kumar.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Saurav Kumar</h4>
 									<h6>President</h6>
 									<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:saurav@projecthydro.org"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/Sauravk12448765?s=09"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/saurav-kumar-77b60776/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:saurav@projecthydro.org"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/Sauravk12448765?s=09"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/saurav-kumar-77b60776/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="carl_ulvinen" src="images/da-team/carl_ulvinen.png" style="padding-bottom: 15px;"/>
+									<img alt="carl_ulvinen" src="images/da-team/carl_ulvinen.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Carl Ulvinen</h3>
 										<h6>Vice President</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:carl@projecthydro.org"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/Ux33_331"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://se.linkedin.com/in/carl-ulvinen-5b654428"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:carl@projecthydro.org"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/Ux33_331"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://se.linkedin.com/in/carl-ulvinen-5b654428"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="alexander_milenkovic" src="images/da-team/alexander_milenkovic.png" style="padding-bottom: 15px;"/>
+									<img alt="alexander_milenkovic" src="images/da-team/alexander_milenkovic.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Alex Milenkovic</h3>
 										<h6>Secretary & Designer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:alexander@thegreat.nu"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/alexander-milenkovic-5b4706131/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:alexander@thegreat.nu"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank" href="https://twitter.com/"><i
+										class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/alexander-milenkovic-5b4706131/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="srinivas_ratnam" src="images/da-team/srinivas_ratnam.png" style="padding-bottom: 15px;"/>
+									<img alt="srinivas_ratnam" src="images/da-team/srinivas_ratnam.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Srinivas Ratnam</h3>
 										<h6>Lead Developer & Designer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:cnu.srini@hotmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/urbana007"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/srinivas-ratnam-3aba9b87/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:cnu.srini@hotmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/urbana007"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/srinivas-ratnam-3aba9b87/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">			
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="sidharth" src="images/da-team/sidharth.png" style="padding-bottom: 15px;"/>
+									<img alt="sidharth" src="images/da-team/sidharth.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Sidharth Srivastava</h4>
 									<h6>Fullstack Developer</h6>
 									<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:sid.srivastava28@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://github.com/sidharth28"><i class="fab fa-github"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/sidharth-srivastava-099ba682/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:sid.srivastava28@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://github.com/sidharth28"><i class="fab fa-github"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/sidharth-srivastava-099ba682/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="tabula_rasa" src="images/da-team/tabula_rasa.png" style="padding-bottom: 15px;"/>
+									<img alt="tabula_rasa" src="images/da-team/tabula_rasa.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Tabula Rasa</h3>
 										<h6>Fullstack Developer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:maxharidevis@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/davidcryptoath?s=09"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://github.com/freeman717"><i class="fab fa-github"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:maxharidevis@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/davidcryptoath?s=09"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://github.com/freeman717"><i class="fab fa-github"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="rai_masamune" src="images/da-team/rai_masamune.png" style="padding-bottom: 15px;"/> 
+									<img alt="rai_masamune" src="images/da-team/rai_masamune.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Ryan Cañeba Peña</h3>
 										<h6>Lead Community Manager</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:alphacenturionwolf@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/RaiMasamune"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/ryanpena-13015215a/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:alphacenturionwolf@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/RaiMasamune"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/ryanpena-13015215a/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="ana_maria" src="images/da-team/ana_maria.png" style="padding-bottom: 15px;"/>
+									<img alt="ana_maria" src="images/da-team/ana_maria.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Ana Maria</h3>
 										<h6>Social Media Lead</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:annajt.contact@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/annajt_19"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/ana-maria-marin-b042a5ab/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:annajt.contact@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/annajt_19"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/ana-maria-marin-b042a5ab/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="olufemi_steven" src="images/da-team/olufemi_steven.png" style="padding-bottom: 15px;"/>
+									<img alt="olufemi_steven" src="images/da-team/olufemi_steven.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Olufemi Stephen</h3>
 										<h6>Marketing Lead</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:olufemisteven98@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/Bitcoineagle?s=09"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/olufemi-stephen-46b685173"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:olufemisteven98@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/Bitcoineagle?s=09"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/olufemi-stephen-46b685173"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="phi_quang" src="images/da-team/phi_quang.png" style="padding-bottom: 15px;"/>
+									<img alt="phi_quang" src="images/da-team/phi_quang.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Phi Quang</h3>
 										<h6>Community Manager</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:quangphi1210@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href=" https://twitter.com/phi04436175"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/bqphi1210"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:quangphi1210@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href=" https://twitter.com/phi04436175"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/bqphi1210"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
-					</div>					
+					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="denny_cap" src="images/da-team/denny_cap.png" style="padding-bottom: 15px;"/>
+									<img alt="denny_cap" src="images/da-team/denny_cap.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Dennevhyn Capiña</h3>
 										<h6>Marketing & Designer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:dennevhyn31@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href=" https://twitter.com/cryptosawyer"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/graphicidsawyer/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:dennevhyn31@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href=" https://twitter.com/cryptosawyer"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/graphicidsawyer/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="jignesh" src="images/da-team/jignesh.png" style="padding-bottom: 15px;"/>
+									<img alt="jignesh" src="images/da-team/jignesh.png" style="padding-bottom: 15px;" />
 									<h4 class="center">Jignesh Beladiya</h3>
 										<h6>Lead Writer & Developer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:jigneshon@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href=" https://twitter.com/jigneshon"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href=" https://www.linkedin.com/in/jigneshon"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank" href="mailto:jigneshon@gmail.com"><i
+										class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href=" https://twitter.com/jigneshon"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href=" https://www.linkedin.com/in/jigneshon"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="box">
-						<div class="box-padding">	
+						<div class="box-padding">
 							<div class="box-inner">
 								<div class="box-text">
-									<img alt="priyanka_lath" src="images/da-team/priyanka_lath.png" style="padding-bottom: 15px;"/>
+									<img alt="priyanka_lath" src="images/da-team/priyanka_lath.png"
+										style="padding-bottom: 15px;" />
 									<h4 class="center">Priyanka Lath</h3>
 										<h6>Writer</h6>
-									<div class="clr"></div>
+										<div class="clr"></div>
 								</div>
-								<a class="button gray top-padding" target="_blank" href="mailto:priyankalath1988@gmail.com"><i class="fa fa-envelope"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://twitter.com/Priyanka_205?s=03"><i class="fab fa-twitter"></i></a>
-								<a class="button gray top-padding" target="_blank" href="https://www.linkedin.com/in/priyanka-lath-8ab180191/"><i class="fab fa-linkedin"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="mailto:priyankalath1988@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://twitter.com/Priyanka_205?s=03"><i class="fab fa-twitter"></i></a>
+								<a class="button gray top-padding" target="_blank"
+									href="https://www.linkedin.com/in/priyanka-lath-8ab180191/"><i
+										class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="clr-boxes"></div>
 
 					<div class="clr"></div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+		</div>
+	</section>
 
-<!-- Documentation -->
+	<!-- Documentation -->
 
- <section id="row-2">
+	<section id="row-2">
 		<div id="row-2-backgrounds">
 			<div class="inner-wrapper padding">
 				<div class="column-1">
 					<div class="center">
 						<h3>Hydro HCDP</h3>
-						<br/>
-						<a class="button color" href="https://github.com/HydroBlockchain/hcdp" target="_blank">Learn More</a>
+						<br />
+						<a class="button color" href="https://github.com/HydroBlockchain/hcdp" target="_blank">Learn
+							More</a>
 					</div>
 				</div>
-				 <div class="column-2">
+				<div class="column-2">
 					<div class="center">
 						<h3>Developer Documentation</h3>
-						<br/>
-						<a class="button color" href="https://github.com/HydroBlockchain/Hydro-Docs" target="_blank">Learn More</a>
+						<br />
+						<a class="button color" href="https://github.com/HydroBlockchain/Hydro-Docs"
+							target="_blank">Learn More</a>
 					</div>
-				</div> 
+				</div>
 				<div class="clr"></div>
 			</div>
 		</div>
-	</section> 
+	</section>
 
 	<!-- get involved -->
 
@@ -378,15 +460,66 @@
 		<div id="row-12-backgrounds get_involved">
 			<div class="inner-wrapper padding">
 				<div class="column-12">
-					<div id="row-12-text">
+					<div id="row-12-text" style="margin-top: -50px;">
 						<h3 class="center white">Get Involved With Project Hydro</h3>
-						<p class="center white">We are looking for various skillsets to contribute to the project.<br><br> <a href="mailto:da@projecthydro.org" class="button color">Send us a note</a></p>
+						<br>
+						<!-- <p class="center white">We are looking for various skillsets to contribute to the project.<br><br> <a href="mailto:da@projecthydro.org" class="button color">Send us a note</a></p> -->
+						<div class="fcf-body">
+
+							<div id="fcf-form">
+							<h3 class="fcf-h3">dAmbassabor Application</h3>
+							<br>
+						
+							<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+								
+								<div class="fcf-form-group">
+									<label for="Name" class="fcf-label">Name</label>
+									<div class="fcf-input-group">
+										<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+									</div>
+								</div>
+						
+								<div class="fcf-form-group">
+									<label for="Email" class="fcf-label">Email</label>
+									<div class="fcf-input-group">
+										<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+									</div>
+								</div>
+						
+								<div class="fcf-form-group">
+									<label for="Message" class="fcf-label">Introduction</label>
+									<div class="fcf-input-group">
+										<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+									</div>
+								</div>
+
+
+                                <!-- <div class="fcf-form-group">
+									<label for="Message" class="fcf-label">CV</label>
+									<br>
+								<form action="index.php" enctype="multipart/form-data">
+									Select a file to upload: <input type="file" name="selectedfile">
+								   </form>
+								</div>
+							</div> -->
+						
+								<div class="fcf-form-group">
+									<button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+								</div>
+						
+						
+							</form>
+							</div>
+						
+						</div>
 					</div>
 				</div>
 				<div class="clr"></div>
 			</div>
 		</div>
 	</section>
+
+
 
 	<!-- roadmap -->
 
@@ -404,11 +537,15 @@
 									<div class="box-text">
 										<img alt="Raindrop" src="images/raindrop.jpg" />
 										<h4 class="center bottom-padding-icons">Raindrop</h3>
-										Raindrop is an authentication protocol which vastly improves upon current 2FA standards with decentralized public blockchain security for logins, transactions, and payments.
-										<div class="clr"></div>
+											Raindrop is an authentication protocol which vastly improves upon current
+											2FA standards with decentralized public blockchain security for logins,
+											transactions, and payments.
+											<div class="clr"></div>
 									</div>
 
-									<a class="button gray top-padding" target="_blank" href="https://github.com/HydroBlockchain/Hydro-Docs/tree/master/Raindrop"><i class="far fa-envelope"></i>Whitepaper</a>
+									<a class="button gray top-padding" target="_blank"
+										href="https://github.com/HydroBlockchain/Hydro-Docs/tree/master/Raindrop"><i
+											class="far fa-envelope"></i>Whitepaper</a>
 								</div>
 							</div>
 						</div>
@@ -420,11 +557,15 @@
 									<div class="box-text">
 										<img alt="Snowflake" src="images/snowflake.jpg" />
 										<h4 class="center bottom-padding-icons">Snowflake</h3>
-											Snowflake is an identity protocol designed to protect private data from identity theft on the blockchain by providing a major barrier to identity theft attempts.
-										<div class="clr"></div>
+											Snowflake is an identity protocol designed to protect private data from
+											identity theft on the blockchain by providing a major barrier to identity
+											theft attempts.
+											<div class="clr"></div>
 									</div>
 
-									<a class="button gray top-padding" target="_blank" href="https://github.com/HydroBlockchain/Hydro-Docs/blob/master/Snowflake/Snowflake_DRAFT.md"><i class="far fa-envelope"></i>Whitepaper</a>
+									<a class="button gray top-padding" target="_blank"
+										href="https://github.com/HydroBlockchain/Hydro-Docs/blob/master/Snowflake/Snowflake_DRAFT.md"><i
+											class="far fa-envelope"></i>Whitepaper</a>
 								</div>
 							</div>
 						</div>
@@ -436,11 +577,15 @@
 									<div class="box-text">
 										<img alt="Ice" src="images/ice.jpg" />
 										<h4 class="center bottom-padding-icons">Ice</h3>
-										Ice is a document signing and verification protocol which will allow users to stamp, authenticate, verify and seal any document or contract that is sent.
-										<div class="clr"></div>
+											Ice is a document signing and verification protocol which will allow users
+											to stamp, authenticate, verify and seal any document or contract that is
+											sent.
+											<div class="clr"></div>
 									</div>
 
-									<a class="button gray top-padding" target="_blank" href="https://github.com/HydroBlockchain/Hydro-Docs/blob/master/Ice/Ice_DRAFT.md"><i class="far fa-envelope"></i>Whitepaper</a>
+									<a class="button gray top-padding" target="_blank"
+										href="https://github.com/HydroBlockchain/Hydro-Docs/blob/master/Ice/Ice_DRAFT.md"><i
+											class="far fa-envelope"></i>Whitepaper</a>
 								</div>
 							</div>
 						</div>
@@ -454,8 +599,10 @@
 									<div class="box-text">
 										<img alt="Tide" src="images/tide.jpg" />
 										<h4 class="center bottom-padding-icons">Tide</h3>
-										Tide is a payment protocol which will allow for one-click authorization of debit and credit POS transactions, as well as instantaneous p2p, p2b, and b2b payments across the blockchain.
-										<div class="clr"></div>
+											Tide is a payment protocol which will allow for one-click authorization of
+											debit and credit POS transactions, as well as instantaneous p2p, p2b, and
+											b2b payments across the blockchain.
+											<div class="clr"></div>
 									</div>
 
 									<a class="button color top-padding" href="#">Coming Soon</a>
@@ -470,10 +617,12 @@
 									<div class="box-text">
 										<img alt="Mist" src="images/hail.jpg" />
 										<h4 class="center bottom-padding-icons">Hail</h3>
-										Hail is tokenization on the blockchain. Under the hood it is a framework of Solidity Smart Contracts which work on top of the Hydro Snowflake protocol.
-										<div class="clr"></div>
+											Hail is tokenization on the blockchain. Under the hood it is a framework of
+											Solidity Smart Contracts which work on top of the Hydro Snowflake protocol.
+											<div class="clr"></div>
 									</div>
-									<a class="button color top-padding" target="_blank" href="https://github.com/HydroBlockchain/Hail">Learn More</a>
+									<a class="button color top-padding" target="_blank"
+										href="https://github.com/HydroBlockchain/Hail">Learn More</a>
 
 								</div>
 							</div>
@@ -486,15 +635,16 @@
 		</div>
 	</section>
 
-    <!-- partners -->
+	<!-- partners -->
 
 	<section id="row-5">
 		<div id="row-5-backgrounds">
 			<div class="inner-wrapper padding">
 				<h3 class="center bottom-padding">Integration Partners</h3>
-				<br/>
+				<br />
 				<div class="center">
-					<div class="col-1"><a href="https://chain.link/" target="_blank"><img alt="chainlink" src="images/chainlink.png" /></a></div>
+					<div class="col-1"><a href="https://chain.link/" target="_blank"><img alt="chainlink"
+								src="images/chainlink.png" /></a></div>
 					<div class="clr"></div>
 				</div>
 			</div>
@@ -506,38 +656,47 @@
 	<section id="row-9" style="background-color: white;">
 		<div class="inner-wrapper padding">
 			<h3 class="center bottom-padding">Exchanges</h3>
-			<br/>
+			<br />
 			<div class="center">
-				<div class="col-3"><a href="https://global.bittrex.com/Market/Index?MarketName=BTC-HYDRO" target="_blank"><img alt="bittrex" src="images/exchanges/bittrex.png" /></a></div>
-				<div class="col-3"><a href="https://www.coinex.com/exchange?currency=btc&dest=hydro" target="_blank"><img alt="coinex" src="images/exchanges/coinex.png" /></a></div>
-				<div class="col-3"><a href="https://www.bitforex.com/en/spot/hydro_eth" target="_blank"><img alt="bitforex" src="images/exchanges/bitforex.png"/></a></div>				
+				<div class="col-3"><a href="https://global.bittrex.com/Market/Index?MarketName=BTC-HYDRO"
+						target="_blank"><img alt="bittrex" src="images/exchanges/bittrex.png" /></a></div>
+				<div class="col-3"><a href="https://www.coinex.com/exchange?currency=btc&dest=hydro"
+						target="_blank"><img alt="coinex" src="images/exchanges/coinex.png" /></a></div>
+				<div class="col-3"><a href="https://www.bitforex.com/en/spot/hydro_eth" target="_blank"><img
+							alt="bitforex" src="images/exchanges/bitforex.png" /></a></div>
 				<div class="clr"></div>
 			</div>
 			<br><br><br>
 			<div class="center">
-				<div class="col-3"><a href="https://app.liquid.com/exchange/HYDROBTC" target="_blank"><img alt="liquid" src="images/exchanges/liquid.png"/></a></div>
-				<div class="col-3"><a href="https://bq.net/trade/HYDRO-BTC" target="_blank"><img alt="bitsdaq" src="images/exchanges/bitsdaq.png"/></a></div>
-				<div class="col-3"><a href="https://mercatox.com/exchange/HYDRO/BTC" target="_blank"><img alt="mercatox" src="images/exchanges/mercatox.png"/></a></div>
+				<div class="col-3"><a href="https://app.liquid.com/exchange/HYDROBTC" target="_blank"><img alt="liquid"
+							src="images/exchanges/liquid.png" /></a></div>
+				<div class="col-3"><a href="https://bq.net/trade/HYDRO-BTC" target="_blank"><img alt="bitsdaq"
+							src="images/exchanges/bitsdaq.png" /></a></div>
+				<div class="col-3"><a href="https://mercatox.com/exchange/HYDRO/BTC" target="_blank"><img alt="mercatox"
+							src="images/exchanges/mercatox.png" /></a></div>
 				<div class="clr"></div>
 			</div>
 			<br><br><br>
 			<div class="center">
-				<div class="col-3"><a href="https://uniswap.exchange/swap" target="_blank"><img alt="vcc" src="images/exchanges/uniswap.png"/></a></div>
-				<div class="col-3"><a href="https://www.bitmart.com/trade/en?symbol=HYDRO_BTC" target="_blank"><img alt="bitmart" src="images/exchanges/bitmart.png"/></a></div>
-				<div class="col-3"><a href="https://idex.market/eth/hydro" target="_blank"><img alt="idex" src="images/exchanges/idex.png"/></a></div>
+				<div class="col-3"><a href="https://uniswap.exchange/swap" target="_blank"><img alt="vcc"
+							src="images/exchanges/uniswap.png" /></a></div>
+				<div class="col-3"><a href="https://www.bitmart.com/trade/en?symbol=HYDRO_BTC" target="_blank"><img
+							alt="bitmart" src="images/exchanges/bitmart.png" /></a></div>
+				<div class="col-3"><a href="https://idex.market/eth/hydro" target="_blank"><img alt="idex"
+							src="images/exchanges/idex.png" /></a></div>
 				<div class="clr"></div>
 			</div>
 		</div>
-	</div>
-</section> 
+		</div>
+	</section>
 
-    <!-- footer -->
+	<!-- footer -->
 
 	<footer id="footer">
 		<div class="inner-wrapper padding">
 			<div class="center">
 				<img alt="hydro logo" class="footer-logo" src="images/footer-logo.jpg" />
-				<br/>
+				<br />
 				<div id="footer-icons">
 					<!-- <a href="https://www.facebook.com/HydroBlockchain" target="_blank"><i class="fab fa-facebook"></i></a> -->
 					<a href="https://twitter.com/HydroBlockchain" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -548,7 +707,7 @@
 					<!-- <a href="https://www.linkedin.com/company/project-hydro/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
 				</div>
 				<div class="clr"></div>
-				<br/>
+				<br />
 				<div id="menu" class="center">
 					<ul>
 						<li><a href="https://medium.com/project-hydro/tagged/updates" target="_blank">Updates</a></li>
@@ -557,10 +716,10 @@
 				</div>
 				<div class="clr"></div>
 			</div>
-			<a href="#" class="scrollup"><i class="fa fa-chevron-circle-up" ></i></a>
+			<a href="#" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a>
 		</div>
 	</footer>
-	
+
 	<script type="text/javascript">
 		jQuery(function ($) {
 			$(document).ready(function () {
@@ -598,87 +757,90 @@
 		});
 
 
-(() => {
-  'use strict';
+		(() => {
+			'use strict';
 
-  let refOffset = 50;
-  const bannerHeight = 70;
-  const bannerWrapper = document.querySelector('.banner-wrapper');
-  const banner = document.querySelector('.banner');
+			let refOffset = 50;
+			const bannerHeight = 70;
+			const bannerWrapper = document.querySelector('.banner-wrapper');
+			const banner = document.querySelector('.banner');
 
-  const handler = () => {
-    const newOffset = window.scrollY || window.pageYOffset;
+			const handler = () => {
+				const newOffset = window.scrollY || window.pageYOffset;
 
-    if (newOffset > bannerHeight) {
+				if (newOffset > bannerHeight) {
 
-      if (newOffset > refOffset) {
-        bannerWrapper.classList.remove('animateOut');
-        bannerWrapper.classList.add('animateIn');
-      } else {
-        bannerWrapper.classList.remove('animateOut');
-        bannerWrapper.classList.add('animateIn');
-      }
+					if (newOffset > refOffset) {
+						bannerWrapper.classList.remove('animateOut');
+						bannerWrapper.classList.add('animateIn');
+					} else {
+						bannerWrapper.classList.remove('animateOut');
+						bannerWrapper.classList.add('animateIn');
+					}
 
-      banner.style.background = 'rgba(255, 255, 255, 1)';
-	  banner.style.display = 'flex';
+					banner.style.background = 'rgba(255, 255, 255, 1)';
+					banner.style.display = 'flex';
 
-      refOffset = newOffset;
+					refOffset = newOffset;
 
-    } else {
+				} else {
 
-	  bannerWrapper.classList.remove('animateIn');
-      banner.style.backgroundColor = 'rgba(162, 197, 35, 0)';
-	  banner.style.display = 'block';
-	}
-  };
+					bannerWrapper.classList.remove('animateIn');
+					banner.style.backgroundColor = 'rgba(162, 197, 35, 0)';
+					banner.style.display = 'block';
+				}
+			};
 
-  window.addEventListener('scroll', handler, false);
-})();
+			window.addEventListener('scroll', handler, false);
+		})();
 
 
-(function($){
+		(function ($) {
 
-	$.fn.shuffle = function() {
+			$.fn.shuffle = function () {
 
-		var allElems = this.get(),
-				getRandom = function(max) {
-					return Math.floor(Math.random() * max);
-				},
-				shuffled = $.map(allElems, function(){
-					var random = getRandom(allElems.length),
+				var allElems = this.get(),
+					getRandom = function (max) {
+						return Math.floor(Math.random() * max);
+					},
+					shuffled = $.map(allElems, function () {
+						var random = getRandom(allElems.length),
 							randEl = $(allElems[random]).clone(true)[0];
-					allElems.splice(random, 1);
-					return randEl;
+						allElems.splice(random, 1);
+						return randEl;
+					});
+
+				this.each(function (i) {
+					$(this).replaceWith($(shuffled[i]));
 				});
 
-		this.each(function(i){
-			$(this).replaceWith($(shuffled[i]));
-		});
+				return $(shuffled);
 
-		return $(shuffled);
+			};
 
-	};
+		})(jQuery);
 
-})(jQuery);
+		function shuffleCards() {
+			$('.da').shuffle();
+			$('.da').css('display', 'block');
 
-function shuffleCards() {
-	$('.da').shuffle();
-	$('.da').css('display', 'block');
+			$('.core').shuffle();
+			$('.core').css('display', 'block');
+		}
+	</script>
 
-	$('.core').shuffle();
-	$('.core').css('display', 'block');
-}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132221160-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-</script>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132221160-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', '');
-</script>
+		gtag('config', '');
+	</script>
 </body>
+
 </html>
