@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     $email_to = "da@projecthydro.org";
-    $email_subject = "New DA submissions";
+    $email_subject = "Inquiry from website";
 
     function problem($error)
     {
@@ -13,7 +13,6 @@ if (isset($_POST['Email'])) {
         die();
     }
 
-    // validation expected data exists
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
@@ -22,9 +21,9 @@ if (isset($_POST['Email'])) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['Name']; // required
-    $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
+    $name = $_POST['Name'];
+    $email = $_POST['Email']; 
+    $message = $_POST['Message'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -59,16 +58,22 @@ if (isset($_POST['Email'])) {
     $email_message .= "Email: " . clean_string($email) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
 
-    // create email headers
     $headers = 'From: ' . $email . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
-    <!-- include your success message below -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-    Thank you for contacting us. We will be in touch with you very soon.
+    <div class="center" style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
+
+    <h3 class="heading" style="display:flex;justify-content:center;padding-top:100px;">Thank you for contacting us, we will be in touch shortly.</h3>
+    <br>
+
+    <button class="button topmenu" style="width: 100px;">
+    <a href="https://projecthydro.org" style="color:black;">Return</button></div>
+    </body>
 
 <?php
 }
