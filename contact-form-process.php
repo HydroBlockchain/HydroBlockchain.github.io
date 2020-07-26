@@ -65,15 +65,11 @@ if (isset($_POST['Email'])) {
 ?>
 
     <link href="style.css" rel="stylesheet" type="text/css" />
-
     <div class="center" style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
-
-    <h3 class="heading" style="display:flex;justify-content:center;padding-top:100px;">Thank you for contacting us, we will be in touch shortly.</h3>
+    <h3 class="heading" style="display:flex;justify-content:center;padding-top:150px;">Thank you for contacting us, we will be in touch shortly.</h3>
     <br>
-
-    <button class="button topmenu" style="width: 100px;">
-    <a href="https://projecthydro.org" style="color:black;">Return</button></div>
-    </body>
+    <br>
+    <a class="button color" href="https://projecthydro.org">Return</a>
 
 <?php
 }
