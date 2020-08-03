@@ -71,7 +71,7 @@
 
         <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post"
             onsubmit="return ValidateForm(this);" target="_top">
-            <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="carl@projecthydro.org" />
+            <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="da@projecthydro.org" />
             <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="7KNX6JXKFLER" />
             <input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://projecthydro.org" />
             <input id="skip_Subject" name="skip_Subject" type="hidden" value="dAmbassador Application" />
@@ -116,22 +116,25 @@
                         <input name="Twitter" type="text" maxlength="50" />
                     </td>
                     <td>
-                        Telegram<br />
+                        Telegram Handle<br />
                         <input name="Telegram" type="text" maxlength="50" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        Introduction *<br />
-                        <input name="Introduction"></input>
+                        Short Introduction *<br />
+                        <textarea name="Introduction" rows="6" maxlength="3000"></textarea>
                     </td>
                 </tr>
             </table>
             <div class="bottom">
 
-                <i>Enter security code</i>
-
+                <div class="left">
+                Enter security code
                 <input name="skip_CaptchaCode" type="text" maxlength="6" />
+            </div>
+
+            <div class="right">
 
                 SECURITY CODE
 
@@ -140,8 +143,12 @@
                         title="HTML code for Employment Application web form" style=" border:1px solid #999999;"
                         src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7KNX6JXKFLER&ImgType=2" /></a>
                 <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
-                        style="font-size:12px;">reload image</span></a>
+                        style="font-size:10px;">reload image</span></a>
+                    </div>
 
+                
+            </div>
+            <div class="placement">
                 <input name="skip_Submit" type="submit" />
             </div>
         </form>
