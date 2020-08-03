@@ -1,0 +1,170 @@
+/* general */
+
+body {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 900px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.bottom {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 50% auto;
+    margin: auto;
+}
+
+/* inputs */
+
+input {
+    width: 260px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Email_Address"] {
+    width: 530px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Position"] {
+    width: 530px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Introduction"] {
+    width: 530px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="skip_CaptchaCode"] {
+    width: 130px;
+    font-size: 24px;
+    text-align: center;
+    margin: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="skip_Submit"] {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 686px){
+/* general */
+
+body {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.bottom {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 50% auto;
+    margin: auto;
+}
+
+/* inputs */
+
+input {
+    width: 90%;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Email_Address"] {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Position"] {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="Introduction"] {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="skip_CaptchaCode"] {
+    width: 130px;
+    font-size: 24px;
+    text-align: center;
+    margin: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name="skip_Submit"] {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}}

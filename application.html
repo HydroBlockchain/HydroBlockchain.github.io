@@ -12,6 +12,7 @@
 
     <title>Project Hydro</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="application.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         function ValidateForm(frm) {
@@ -40,11 +41,6 @@
                 frm.Position.focus();
                 return false;
             }
-            // if (frm.Phone.value == "") {
-            //     alert('Phone is required.');
-            //     frm.Phone.focus();
-            //     return false;
-            // }
             if (frm.skip_CaptchaCode.value == "") {
                 alert('Enter security code.');
                 frm.skip_CaptchaCode.focus();
@@ -67,12 +63,11 @@
         }
     </script>
 
-    <body style=" padding: 1rem;display:flex;justify-content: center;flex-direction: column; align-items: center;">
+<body>
 
-    <div class="wrapper"
-        style="padding: 1rem;width:50%;display:flex;justify-content: center;flex-direction: column; align-items: center; background-color: white; color: black; border-radius: 5px;">
+    <div class="wrapper">
 
-        <h2 style="padding:1rem;">dAmbassador Application</h2>
+        <h2>dAmbassador Application</h2>
 
         <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post"
             onsubmit="return ValidateForm(this);" target="_top">
@@ -84,92 +79,71 @@
             <input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" />
             <table border="0" cellpadding="5" cellspacing="0">
                 <tr>
-                    <td style="width:50%">
+                    <td>
                         First name *<br />
-                        <input name="First_Name" type="text" maxlength="50"
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                        <input name="First_Name" type="text" maxlength="50" />
                     </td>
-                    <td style="width:50%">
-                        <b>Last name *</b><br />
-                        <input name="Last_Name" type="text" maxlength="50"
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                    <td>
+                        Last name *<br />
+                        <input name="Last_Name" type="text" maxlength="50" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <b>Email *</b><br />
-                        <input name="Email_Address" type="text" maxlength="100"
-                            style="width:530px;height:30px;border:1px solid black;border-radius: 5px;" />
+                        Email *<br />
+                        <input name="Email_Address" type="text" maxlength="100" />
                     </td>
                 </tr>
                 <tr>
-                    
-                    <td style="width:50%">
-                        <b>LinkedIn URL</b><br />
-                        <input name="Twitter" type="text" maxlength="255" value=""
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                    <td>
+                        LinkedIn URL<br />
+                        <input name="Twitter" type="text" maxlength="255" value="" />
                     </td>
-                    <td style="width:50%">
-                        <b>Twitter URL</b><br />
-                        <input name="Resume" type="text" maxlength="50" value=""
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                    <td>
+                        Twitter URL<br />
+                        <input name="Resume" type="text" maxlength="50" value="" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <b>Position you are applying for *</b><br />
-                        <input name="Position" type="text" maxlength="100"
-                            style="width:530px;height:30px;border:1px solid black;border-radius: 5px;" />
+                        Position you are applying for *<br />
+                        <input name="Position" type="text" maxlength="100" />
                     </td>
                 </tr>
                 <tr>
-                    <td style="width:50%">
-                        <b>Github URL</b><br />
-                        <input name="Twitter" type="text" maxlength="50"
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                    <td>
+                        Github URL<br />
+                        <input name="Twitter" type="text" maxlength="50" />
                     </td>
-                    <td style="width:50%">
-                        <b>Telegram</b><br />
-                        <input name="Telegram" type="text" maxlength="50"
-                            style="width:260px;height:30px;border:1px solid black;border-radius: 5px;" />
+                    <td>
+                        Telegram<br />
+                        <input name="Telegram" type="text" maxlength="50" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <b>Introduction *</b><br />
-                        <textarea name="Introduction" rows="7" cols="40"
-                            style="width:530px;border:1px solid black;border-radius: 5px;"></textarea>
+                        Introduction *<br />
+                        <input name="Introduction"></input>
                     </td>
                 </tr>
             </table>
-            <div style="text-align:center;">
-                <table border="0" cellpadding="0" cellspacing="0" style="text-align:center; width:300px; margin:auto;">
-                    <tr>
-                        <td colspan="2" style="padding-bottom:0px;">
-                    </tr>
-                    <tr>
-                        <td><i>Enter security code</i></td>
-                        <td>SECURITY CODE</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input name="skip_CaptchaCode" type="text" maxlength="6"
-                                style="width:130px; height:28px; font-size:24px; text-align:center;margin:none;border:1px solid black;border-radius: 5px;" />
-                        </td>
-                        <td>
-                            <a href="https://www.snaphost.com/captcha/ReadyForms/EmploymentApplicationForm.aspx"><img
-                                    id="CaptchaImage" alt="Employment Application form"
-                                    title="HTML code for Employment Application web form"
-                                    style="margin-left:20px; border:1px solid #999999;"
-                                    src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7KNX6JXKFLER&ImgType=2" /></a>
-                            <br /><a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
-                                    style="font-size:12px;">reload image</span></a>
-                        </td>
-                    </tr>
-                </table>
-                <input name="skip_Submit" type="submit" value="Send Application"
-                    style="background:white;padding: 10px;border:1px solid black;border-radius: 5px;" />
+            <div class="bottom">
+
+                <i>Enter security code</i>
+
+                <input name="skip_CaptchaCode" type="text" maxlength="6" />
+
+                SECURITY CODE
+
+                <a href="https://www.snaphost.com/captcha/ReadyForms/EmploymentApplicationForm.aspx"><img
+                        id="CaptchaImage" alt="Employment Application form"
+                        title="HTML code for Employment Application web form" style=" border:1px solid #999999;"
+                        src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7KNX6JXKFLER&ImgType=2" /></a>
+                <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
+                        style="font-size:12px;">reload image</span></a>
+
+                <input name="skip_Submit" type="submit" />
             </div>
         </form>
     </div>
-    </body>
+</body>
