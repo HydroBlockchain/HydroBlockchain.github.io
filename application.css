@@ -40,6 +40,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
     
 }
 
@@ -93,7 +94,7 @@ textarea[name="Introduction"] {
     border-radius: 5px;
 }
 
-input[name="skip_CaptchaCode"] {
+input[name="CaptchaCode"] {
     width: 130px;
     font-size: 24px;
     text-align: center;
@@ -105,6 +106,14 @@ input[name="skip_CaptchaCode"] {
 input[name="skip_Submit"] {
     background: white;
     border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[name="file1"] {
+    background: white;
+    border: transparent;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;

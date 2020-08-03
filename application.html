@@ -69,14 +69,10 @@
 
         <h2>dAmbassador Application</h2>
 
-        <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post"
-            onsubmit="return ValidateForm(this);" target="_top">
-            <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="da@projecthydro.org" />
-            <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="7KNX6JXKFLER" />
-            <input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://projecthydro.org" />
-            <input id="skip_Subject" name="skip_Subject" type="hidden" value="dAmbassador Application" />
-            <input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
-            <input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" />
+        <form action="https://www.SnapHost.com/captcha/WebFormSubmit.aspx" id="UploadForm" enctype="multipart/form-data"
+            method="post" target="_top" onsubmit="return ValidateForm(this);">
+            <input id="SnapHostID" name="SnapHostID" type="hidden" value="7BRM3PKSZDBJ" />
+
             <table border="0" cellpadding="5" cellspacing="0">
                 <tr>
                     <td>
@@ -127,26 +123,21 @@
                     </td>
                 </tr>
             </table>
+
+            <input type="file" name="file1" />
+            
             <div class="bottom">
-
                 <div class="left">
-                Enter security code
-                <input name="skip_CaptchaCode" type="text" maxlength="6" />
-            </div>
-
-            <div class="right">
-
-                SECURITY CODE
-
-                <a href="https://www.snaphost.com/captcha/ReadyForms/EmploymentApplicationForm.aspx"><img
-                        id="CaptchaImage" alt="Employment Application form"
-                        title="HTML code for Employment Application web form" style=" border:1px solid #999999;"
-                        src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7KNX6JXKFLER&ImgType=2" /></a>
-                <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
-                        style="font-size:10px;">reload image</span></a>
-                    </div>
-
-                
+                    <a href="https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx"><img id="CaptchaImage3"
+                            alt="Web Form Code" style="border:1px solid #999999;"
+                            src="https://www.SnapHost.com/captcha/WebForm.aspx?id=7BRM3PKSZDBJ&ImgType=2" /></a>
+                    <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage3');"><span
+                            style="font-size:10px;">reload image</span></a>
+                </div>
+                <div class="right">
+                    <label> Enter Captcha code </label>
+                    <input name="CaptchaCode" type="text" maxlength="6" />
+                </div>
             </div>
             <div class="placement">
                 <input name="skip_Submit" type="submit" />
