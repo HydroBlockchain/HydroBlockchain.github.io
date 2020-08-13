@@ -219,7 +219,7 @@ i.showmobile {display:none;cursor:pointer;}
 .menu-wrap {display:block;width:100%;}
 .animateIn .topmenu.button {border:1px solid #1e66b6;padding:5px 25px 5px 25px;margin-top: 5px;}
 .animateIn .topmenu.button  {color:#1e66b6;}
-.animateIn .topmenu.button:hover {background:#000 !important;color:#fff;border-color:#000;	-webkit-box-shadow:none; 	box-shadow: none; 	-moz-box-shadow: none;}
+.animateIn .topmenu.button:hover {background:#1b408e !important;color:#fff;border-color:#000;	-webkit-box-shadow:none; 	box-shadow: none; 	-moz-box-shadow: none;}
 .animateIn li a {color:#1e66b6 !important;}
 .animateIn li a:hover {color:#fff !important;}
 .animateOut li a {color:#fff !important;}

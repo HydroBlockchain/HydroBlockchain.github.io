@@ -50,13 +50,13 @@
 					<i class="showmobile fas fa-bars" onclick="show_mobile_menu();"></i>
 					<div class="menu-align" id="menu-mobile">
 						<i class="close-mobile fas fa-times-circle" onclick="hide_mobile_menu();"></i>
-						<a href="#footer" class="topmenu button">Contact Us</a>
+						<a href="#footer" class="topmenu button" onclick="hide_mobile_menu();">Contact Us</a>
 						<div id="menu">
 							<ul>
-								<li><a href="#row-1">About</a></li>
-								<li><a href="#row-4">Roadmap</a></li>
+								<li><a href="#row-1" onclick="hide_mobile_menu();">About</a></li>
+								<li><a href="#row-4" onclick="hide_mobile_menu();">Roadmap</a></li>
 								<li><a href="https://hydrostore.io/" target="_blank">dApps</a></li>
-								<li><a href="#row-6">Team</a></li>
+								<li><a href="#row-6" onclick="hide_mobile_menu();">Team</a></li>
 							</ul>
 						</div>
 						<div class="clr"></div>
@@ -788,10 +788,6 @@
 
 			});
 		});
-		$('.navbar-collapse ul li a').click(function () {
-			$('.navbar-toggle:visible').click();
-		});
-
 
 		(() => {
 			'use strict';
