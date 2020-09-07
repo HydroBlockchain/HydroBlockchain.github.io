@@ -468,6 +468,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 	.icon-line-inner {border-top: none;height: 35px;}
 	#row-6 .center{display: flex;justify-content: center;}
 	.box-inner{padding-left: 4rem;padding-right:4rem;}
+	.roadmap-box{
+		flex-direction: column !important;
+
+	}
+	.product_list{
+		justify-content: center !important;
+		align-items: center;
+	}
 }
 
 
@@ -620,13 +628,13 @@ label.fcf-label {
 .fcf-btn-primary:hover {
 	font-family: 'Muli';
 	color:rgb(145, 213, 255);
-	background:rgb(23, 36, 74);	
+	background:rgb(23, 36, 74);
     border-color: rgb(23, 36, 74);
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color:rgb(145, 213, 255);
-	background:rgb(23, 36, 74);	
+	background:rgb(23, 36, 74);
     border-color: rgb(23, 36, 74);
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
@@ -649,4 +657,38 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+
+/* roadmap */
+
+.roadmap-box {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product_list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.product_header {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background: blue;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  color: white;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
 }
