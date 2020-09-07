@@ -257,7 +257,7 @@ background: -moz-linear-gradient(left, #1e68b6 0%, #20428e 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left, #1e68b6 0%,#20428e 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right, #1e68b6 0%,#20428e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e68b6', endColorstr='#20428e',GradientType=1 ); /* IE6-9 */color:#fff;}
-	#back-logo {background:url(images/bodybacktoplef2t.png) repeat -106px -39px, url(images/faint-back-logo.png) no-repeat bottom right;}
+	#back-logo {background:url() repeat -106px -39px, url(images/faint-back-logo.png) no-repeat bottom right;}
 
 
 	#middle-curve {background: url(images/middlecurve.png) no-repeat;    width: 100%;    height: 510px;    background-size: contain;    margin-top: -218px;}
@@ -279,7 +279,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e68b6', end
 #row-1 .inner-wrapper {padding-bottom:0px;}
 
 #row-2 {background:#fff;}
-#row-2-backgrounds {	background: url(images/row4left.jpg) no-repeat bottom left, url(images/row2right.png) top right no-repeat;}
+#row-2-backgrounds {	background: url() no-repeat bottom left, url(images/row2right.png) top right no-repeat;}
 
 #row-3 {
 background: #1e68b6; /* Old browsers */
@@ -294,7 +294,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e68b6', end
 #main-row {background:#fff;}
 
 #row-4 {background:#f5f5f5;}
-#row-4-backgrounds {	background: url(images/row4left.png) no-repeat top left, url(images/row4right.jpg) right bottom no-repeat;}
+#row-4-backgrounds {	background: url() no-repeat top left, url(images/row4right.jpg) right bottom no-repeat;}
 	#row-4 h3 {color:#676767;}
 	.box-date {height:60px;width:60px;position:absolute;right:0;margin-top: -18px;color:#fff;-webkit-box-shadow:0px 4px 8px 3px rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.1);
@@ -473,8 +473,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 
 	}
 	.product_list{
-		justify-content: center !important;
+		justify-content: flex-start !important;
 		align-items: center;
+	}
+	.product_header{
+		padding: 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 }
 
@@ -659,9 +664,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-/* roadmap */
+/* Development roadmap */
 
 .roadmap-box {
+  width: auto !important;
   background: white;
   border-radius: 10px;
   display: flex;
@@ -670,6 +676,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .product_list {
+  width: 200px auto;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -677,18 +684,27 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .product_header {
-  width: 150px;
+  width: 150px auto;
   display: flex;
   justify-content: center;
   background: hsl(234deg 69% 50%);
-  padding: 0.5rem;
-  margin: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 2rem;
   border-radius: 5px;
   color: white;
 }
 
+.roadmap_list {
+  font-size: 12px;
+  margin: 1rem;
+  line-height: 160%;
+}
+
 label {
   display: flex;
-  justify-content: center;
-  font-size: 10px;
+  justify-content: flex-start !important;
+  font-size: 9px;
+  font-style: italic;
+  margin-bottom: -1.5rem;
 }
