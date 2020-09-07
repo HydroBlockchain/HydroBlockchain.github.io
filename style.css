@@ -680,7 +680,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   width: 150px;
   display: flex;
   justify-content: center;
-  background: blue;
+  background: hsl(234deg 69% 50%);
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 5px;
