@@ -468,18 +468,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 	.icon-line-inner {border-top: none;height: 35px;}
 	#row-6 .center{display: flex;justify-content: center;}
 	.box-inner{padding-left: 4rem;padding-right:4rem;}
+	/* roadmap */
 	.roadmap-box{
 		flex-direction: column !important;
-
+		align-items: center !important;
 	}
 	.product_list{
-		justify-content: flex-start !important;
+		width: 280px;
+	}
+	.roadmap_list{
 		align-items: center;
 	}
 	.product_header{
-		padding: 1rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		justify-content: center !important;
 	}
 }
 
@@ -685,7 +686,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .product_header {
   width: 150px auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 	background: white;
   margin-bottom: 1rem;
   font-size: 10px !important;
