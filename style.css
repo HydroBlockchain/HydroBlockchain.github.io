@@ -474,7 +474,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 		align-items: center !important;
 	}
 	.product_list{
-		width: 280px;
+		width: 240px;
 	}
 	.roadmap_list{
 		align-items: center;
@@ -670,11 +670,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .roadmap-box {
   width: auto !important;
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 	padding-top: 1rem;
+	margin: 1rem;
 }
 
 .product_list {
