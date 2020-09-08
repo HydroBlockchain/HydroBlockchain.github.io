@@ -674,6 +674,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   display: flex;
   flex-direction: row;
   justify-content: center;
+	padding-top: 1rem;
 }
 
 .product_list {
