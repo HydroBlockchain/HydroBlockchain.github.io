@@ -482,6 +482,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2475d2', end
 	.product_header{
 		justify-content: center !important;
 	}
+	.eco-wrapper, .eco-wrapper-2{
+		display: flex;
+		flex-direction: column!important;
+		justify-content: center;
+	}
 }
 
 
@@ -707,4 +712,34 @@ label {
   font-size: 9px;
   font-style: italic;
   margin-bottom: -1.5rem;
+}
+
+.eco-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.eco-wrapper-2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+
+.ecosystem-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.eco-box{
+	background:white;
+	margin:1rem;
+	padding:2rem;
+	border-radius: 5px;
+	width:280px!important;
+	height: 260px;
 }
