@@ -151,7 +151,7 @@ transition:  all 200ms linear 0s;}
 
 /* ------- end globals ------- */
 
-.logo-back {background: url(images/topcurve.png) no-repeat  -208px 2px;
+.logo-back {background: url(images/assets/topcurve.png) no-repeat  -208px 2px;
     height: 182px;
     padding-top: 68px;
     margin-top: -42px;}
@@ -257,10 +257,10 @@ background: -moz-linear-gradient(left, #1e68b6 0%, #20428e 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left, #1e68b6 0%,#20428e 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right, #1e68b6 0%,#20428e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e68b6', endColorstr='#20428e',GradientType=1 ); /* IE6-9 */color:#fff;}
-	#back-logo {background:url() repeat -106px -39px, url(images/faint-back-logo.png) no-repeat bottom right;}
+	#back-logo {background:url() repeat -106px -39px, url(images/assets/faint-back-logo.png) no-repeat bottom right;}
 
 
-	#middle-curve {background: url(images/middlecurve.png) no-repeat;    width: 100%;    height: 510px;    background-size: contain;    margin-top: -218px;}
+	#middle-curve {background: url(images/assets/middlecurve.png) no-repeat;    width: 100%;    height: 510px;    background-size: contain;    margin-top: -218px;}
 
 
 	#intro {width:50%;padding-top: 163px;padding-bottom: 123px;}
